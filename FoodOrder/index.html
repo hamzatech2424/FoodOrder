@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <script src="App.js"></script>
+    <title>FoodOrder</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="NavBar">
+           <img class="nav_img" src="logo.png">
+           <h3>Hamza Chaska Point</h3>
+        </div>
+
+
+
+<div class="inner_Container">
+
+
+    <div class="Heading">
+        <h4>Delicious Snacks Available</h4>
+    </div>
+
+
+
+<div class="table_div">    
+ <table>   
+<tr class="div_for_table_heading" >
+    <td style="width: 50%;">Items</td>
+    <td style="width: 20%;">Price</td>
+    <td style="width: 40%;">Quantity</td>
+</tr>
+
+<tr>
+    <td class="items_align"><input id="shawarma_checkbox" type="checkbox">Shawarma</td>
+    <td class="price_align">Rs.120</td>
+    <td><input id="shawarma_id" style="width: 85%; margin-left: 10px; text-align: center;" type="text" placeholder="Write Quantity here"></td>
+</tr>
+
+<tr>
+    <td class="items_align"><input id="zingerShawarma_checkbox" type="checkbox">Zinger Shawarma</td>
+    <td class="price_align">Rs.180</td>
+    <td><input id="Zinger_shawarma" style="width: 85%; margin-left: 10px; text-align: center;" type="text" placeholder="Write Quantity here"></td>
+</tr>
+
+<tr>
+    <td class="items_align"><input id="platter_checkbox" type="checkbox">Platter</td>
+    <td class="price_align">Rs.180</td>
+    <td><input id="platter" style="width: 85%; margin-left: 10px; text-align: center;" type="text" placeholder="Write Quantity here"></td>
+</tr>
+
+<tr>
+    <td class="items_align"><input id="zingerBurger_checkbox" type="checkbox">Zinger Burger</td>
+    <td class="price_align">Rs.150</td>
+    <td><input id="zinger_burger" style="width: 85%; margin-left: 10px; text-align: center;" type="text" placeholder="Write Quantity here"></td>
+</tr>
+
+<tr>
+    <td class="items_align"><input id="fries_checkbox" type="checkbox">Fries</td>
+    <td class="price_align">Rs.80</td>
+    <td><input id="fries" style="width: 85%; margin-left: 10px; text-align: center;" type="text" placeholder="Write Quantity here"></td>
+</tr>
+
+<tr>
+    <td class="items_align"><input id="roll_checkbox" type="checkbox">Chicken Roll</td>
+    <td class="price_align">Rs.40</td>
+    <td><input id="roll" style="width: 85%; margin-left: 10px; text-align: center;" type="text" placeholder="Write Quantity here"></td>
+</tr>
+
+
+
+</table>
+
+<button class="Bill-Btn" onclick="Calcu()">Calculate Bill</button>
+</div>
+
+
+
+
+
+
+<div class="footer">
+
+    <div class="total">
+        <h4>Total:</h4>
+        <h3 style="float: right;" id="Total">0</h3>
+    </div>
+
+    <div class="discount">
+        <h5>Discount: (5% if your order is more then Rs.600)</h5>
+        <h3 style="float: right;" id="Discount">0</h3>
+    </div>
+
+    <div class="grand_total">
+        <h4>Grand Total:</h4>
+        <h2 style="float: right;" id="GrandTotal">0</h2>
+    </div>
+    
+
+</div>
+
+
+<div class="Footer2"></div>
+
+</div>
+
+            
+
+
+    </div>
+    
+</body>
+</html>

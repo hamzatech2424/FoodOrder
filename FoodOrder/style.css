@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-color: red;
+    width: 500px;
+    height: 600px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)
+}
+
+.NavBar{
+    width: 100%;
+    height: 50px;
+    background-color: #F7C1C1;
+}
+
+.NavBar h3{
+    float: right;
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+    padding-right: 120px;
+    padding-top: 10px;
+    color: 131313;
+    color: #FFFFFF;
+    text-shadow: 4px 3px 0px #7A7A7A;
+
+
+}
+
+
+.nav_img{
+    width: 10%;
+    background-color: blue;
+    height: 50px;
+}
+
+
+.inner_Container{
+    background-color:lightgray;
+    width: 100%;
+    height: 550px;
+}
+
+.Heading{
+    height: 80px;
+    width: 100%;
+}
+
+.Heading h4{
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+    color:black;
+    text-shadow: 0 0 10px #FFFFFF;
+}
+
+.table_div{
+    width: 100%;
+    height: 280px;
+    /* background-color: aqua; */
+}
+
+.table_div tr{
+    height: 30px;
+
+}
+
+.items_align{
+    padding-left: 50px;
+}
+
+.price_align{
+    padding-left: 20px;
+}
+
+.Bill-Btn{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border:none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 200px;
+    
+}
+
+
+.footer{
+    background-color: red;
+    width: 100%;
+    height: 170px;
+    position: relative;
+}
+
+.div_for_table_heading{
+    font-weight: bold;
+    text-align: center;
+}
+
+.total{
+    /* background-color: aquamarine; */
+    height: 30px;
+    width: 80%;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    
+}
+
+.total h4{
+    float: left;
+}
+
+.discount{
+    /* background-color: coral; */
+    height: 30px;
+    width: 80%;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    color: #FFFFFF;
+}
+
+.discount h5{
+    float: left;
+}
+
+.grand_total{
+    /* background-color: darkgoldenrod; */
+    height: 30px;
+    width: 80%;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    color: orange;
+    
+}
+
+.grand_total h4{
+    float: left;
+}
+
+.Footer2{
+ background-color: #F7C1C1;
+ width: 100%;
+ height: 30px;
+}
